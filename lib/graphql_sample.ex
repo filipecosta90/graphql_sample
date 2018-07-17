@@ -11,7 +11,7 @@ defmodule GraphqlSample do
       # Start the Ecto repository
       supervisor(GraphqlSample.Repo, []),
       # Start the endpoint when the application starts
-      supervisor(GraphqlSample.Endpoint, []),
+      supervisor(GraphqlSample.Endpoint, [])
       # Start your own worker by calling: GraphqlSample.Worker.start_link(arg1, arg2, arg3)
       # worker(GraphqlSample.Worker, [arg1, arg2, arg3]),
     ]
